@@ -1,0 +1,9 @@
+/ {
+    matrix {
+        compatible = "zmk,matrix";
+        rows = <4>;
+        cols = <5>;
+        row-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>, <&gpio0 9 GPIO_ACTIVE_LOW>, <&gpio0 8 GPIO_ACTIVE_LOW>, <&gpio0 7 GPIO_ACTIVE_LOW>;
+        col-gpios = <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 3 GPIO_ACTIVE_LOW>, <&gpio0 2 GPIO_ACTIVE_LOW>, <&gpio0 1 GPIO_ACTIVE_LOW>, <&gpio0 0 GPIO_ACTIVE_LOW>;
+    };
+};
